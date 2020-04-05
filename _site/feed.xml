@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/bguez.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bguez.io/" rel="alternate" type="text/html" /><updated>2020-04-05T11:20:06+02:00</updated><id>http://localhost:4000/bguez.io/feed.xml</id><title type="html">bguez.io</title><subtitle>Thoughts on programming, PHP, Laravel, Ruby, Rails, keyboards (?)... and more!</subtitle><entry><title type="html">A digital love letter to Spatie.be</title><link href="http://localhost:4000/bguez.io/2020/04/04/love-letter-to-spatie.html" rel="alternate" type="text/html" title="A digital love letter to Spatie.be" /><published>2020-04-04T17:24:44+02:00</published><updated>2020-04-04T17:24:44+02:00</updated><id>http://localhost:4000/bguez.io/2020/04/04/love-letter-to-spatie</id><content type="html" xml:base="http://localhost:4000/bguez.io/2020/04/04/love-letter-to-spatie.html">&lt;p&gt;Hi! I’m Ben, and welcome in my first blog post ever!&lt;/p&gt;
+
+&lt;p&gt;Being confined in France right now makes me want to try a lot of new things and blogging is one of them, I hope you will like it!&lt;/p&gt;
+
+&lt;p&gt;For context, I’m a passionate french dev who spent the last ~10 years building startups in LA, California but recently
+got back in France to be closer to my family and friends.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(If you want to know more about who I am, I’ve tried my best to present myself on the about page you can visit by 
+clicking in the link in the top right corner!)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After years of enjoying Ruby and Rails, I recently came back to the PHP World as I took over the family business
+tech department. I inherited a Laravel codebase written by an agency. It was the first time in years I would work
+with PHP and this framework, even though I was following its development. I always thought this framework was attractive
+to use, with the same philosophy as Rails, and I would oftentimes see features being pushed I was craving for in Rails
+that didn’t exist.&lt;/p&gt;
+
+&lt;p&gt;Once I got involved with the framework, there is one thing I didn’t realize before that I started to appreciate highly:
+Laravel has an AMAZING ecosystem and community, that is very welcoming, nice, and pushing everyone forward.
+I’m thinking &lt;a href=&quot;https://twitter.com/jeffrey_way&quot;&gt;Jeffrey Way&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/adamwathan&quot;&gt;Adam Wathan&lt;/a&gt;,
+&lt;a href=&quot;https://twitter.com/themsaid&quot;&gt;Mohamed Said&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/stauffermatt&quot;&gt;Matt Stauffer&lt;/a&gt;,
+&lt;a href=&quot;https://twitter.com/enunomaduro&quot;&gt;Nuno Maduro&lt;/a&gt;, among a lot more names you will encounter again and again if you hang
+out on Twitter, always giving tips and producing valuable things for the rest of us. 
+And of course, all of this wouldn’t be possible folks if not for &lt;a href=&quot;https://twitter.com/taylorotwell&quot;&gt;Taylor Otwell&lt;/a&gt; the
+driving force behind the framework.&lt;/p&gt;
+
+&lt;p&gt;But one actor has been constantly impressing me since I started using Laravel, and actually motivated me to write this
+article: &lt;a href=&quot;https://spatie.be&quot;&gt;Spatie&lt;/a&gt;, to which I dedicate these few words :)&lt;/p&gt;
+
+&lt;p&gt;I don’t know anyone at Spatie, but from what I understand this is an agency ran by smart folks who happen to write
+exceptional open-source packages and even commercial products around Laravel.&lt;/p&gt;
+
+&lt;p&gt;The reason I wanted to write about them is that I’m maintaining a pretty large e-commerce app written in Laravel,
+and as I was preparing our roadmap for Quarter 2, I’ve realized that most of our biggest next steps were going
+to be made easier because… there is a Spatie package for that ™.
+(That’s literally what I’ve been telling my teammates during briefings).&lt;/p&gt;
+
+&lt;p&gt;Few examples…:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wanna handle stripe webhooks in few lines of code? Check&lt;/li&gt;
+  &lt;li&gt;Wanna build a MailChimp mailing list? No problem&lt;/li&gt;
+  &lt;li&gt;Wanna log your models’ activities? Easy&lt;/li&gt;
+  &lt;li&gt;Wanna create an ACL system for your back-office? Of course&lt;/li&gt;
+  &lt;li&gt;Wanna build a sitemap? Don’t get me started&lt;/li&gt;
+  &lt;li&gt;Wanna make your code more robust and leverage some smart DTO? All right…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And I could honestly go on and on with the list. 
+Not only what they provide just work, but it’s also up to date with latest Laravel versions, heavily maintained, 
+extremely well documented, bug-free, fully tested. And if you don’t understand how something works, jump through the 
+code and read it, you’ll get what they meant in seconds as the code is extremely always clear.&lt;/p&gt;
+
+&lt;p&gt;You’ll often see this on their GitHub repositories&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We invest a lot of resources into creating  &lt;a href=&quot;https://spatie.be/open-source&quot;&gt;best in class open source packages&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Man, it’s not false advertising, it is best in class.&lt;/p&gt;
+
+&lt;p&gt;So, if some Spatie members ever get to read this. THANK YOU for what you are doing. You are making my job easier.&lt;/p&gt;
+
+&lt;p&gt;We currently are using the following&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;“spatie/data-transfer-object&quot;: “^1.9”,
+“spatie/laravel-activitylog”: “^3.14”,
+“spatie/laravel-newsletter”: “^4.8”,
+“spatie/laravel-robots-middleware”: “^1.2”,
+“spatie/laravel-stripe-webhooks”: “^2.3”,
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And I believe there will be more within the next 3-6 months.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So there you go, that’s it, Spatie team: again, THANKS a lot for everything and keep up the good work.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If any of you even get to Paris (After the crazy thing the world is currently going through), I will be happy to invite
+you to my favorite pizzeria :)&lt;/p&gt;
+
+&lt;h2 id=&quot;donations&quot;&gt;Donations&lt;/h2&gt;
+
+&lt;p&gt;I’ve been donating through Patreon to Spatie and I’ve recently bumped the amount. I consider also getting my
+companies involve with this, as well as buying their commercial products. Not that this will make a 
+big difference, but I believe that if everyone who uses open source work give the authors of the work
+they use the most a little something, it will ensure they continue helping us all making our work easier.&lt;/p&gt;
+
+&lt;p&gt;I know it’s not easy for everyone to do, but if you are in a situation where you can give a little something,
+consider donating / buying their products!&lt;/p&gt;
+
+&lt;h2 id=&quot;few-related-links&quot;&gt;Few related links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/spatie_be&quot;&gt;Spatie’s Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/spatie&quot;&gt;Spatie’s GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.patreon.com/spatie/posts&quot;&gt;Spatie’s Patreon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Some great packages
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/spatie/data-transfer-object&quot;&gt;DTO package&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/spatie/laravel-activitylog&quot;&gt;Activity logger package&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/spatie/laravel-newsletter&quot;&gt;Newsletter package&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/spatie/laravel-stripe-webhooks&quot;&gt;Stripe WebHooks package&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Team members’ blog posts
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stitcher.io&quot;&gt;Stitcher.io&lt;/a&gt; blog - Great blog maintained by a Spatie team member&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://freek.dev/&quot;&gt;Freek.dev&lt;/a&gt; blog - Another blog from a Spatie team member&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Paid products
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://mailcoach.app/&quot;&gt;MailCoach&lt;/a&gt; - Run your own newsletter engine, full batteries included.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://flareapp.io/&quot;&gt;Flare&lt;/a&gt; - Error tracking software. Think bugsnag/rollbar/sentry but tailored for Laravel!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+
+&lt;p&gt;Ben,&lt;/p&gt;</content><author><name></name></author><summary type="html">Hi! I’m Ben, and welcome in my first blog post ever!</summary></entry></feed>

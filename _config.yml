@@ -22,8 +22,8 @@ title: bguez.io
 email: benjioxsz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Thoughts on programming, PHP, Laravel, Ruby, Rails, keyboards (?)... and more!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.bguez.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: beNjiox
 github_username:  beNjiox
 
